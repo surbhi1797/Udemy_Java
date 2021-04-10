@@ -26,6 +26,7 @@ public class EvenNumber {
 					break;
 				}
 		}
+		System.out.println("Total Even Numbers found = "+count);
 	}
 
 }
