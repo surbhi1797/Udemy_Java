@@ -9,7 +9,9 @@ public class ForChallenge {
 	{
 		for(int i = 8; i > 1; i--)
 		{
-			System.out.println("10,000 at "+i+"% interest = "+String.format("%.2f",calculateInterest(10000,i)));
+			System.out.println("10,000 at "+i+"% interest = "+(calculateInterest(10000,i)));
+
+//			System.out.println("10,000 at "+i+"% interest = "+String.format("%.2f",calculateInterest(10000,i)));
 		}
 	}
 
